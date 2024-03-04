@@ -1,0 +1,11 @@
+1. User can run your tests with the command line :
+  -  npx playwright test
+
+2. To run a single test file, pass in the name of the test file that you want to run:
+   -  npx playwright test login.spec.ts
+
+3. To run a test with a specific title, use the -g flag followed by the title of the tes:
+    -  npx playwright test -g "Checkout03"
+
+4. To open last HTML report run : 
+    - npx playwright show-report
